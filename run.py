@@ -19,6 +19,4 @@ def timeinfo():
   # return render_template('profile.html', name=name)
   return now
 
-#sigh
-
 app.run(debug=True,host="0.0.0.0",port=8080)
